@@ -56,14 +56,10 @@ export const HeroSection = ({ language }: HeroSectionProps) => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white text-white hover:bg-white hover:text-ocean-primary px-8 py-3"
-            >
-              <MessageCircle className="mr-2 h-5 w-5" />
-              {t.lineContact}
-            </Button>
+            <div className="flex items-center gap-2 text-white bg-white bg-opacity-20 backdrop-blur-sm rounded-lg px-6 py-3 border border-white border-opacity-30">
+              <MessageCircle className="h-5 w-5" />
+              <span className="font-medium">LINE ID: @602dlrjj</span>
+            </div>
           </div>
         </div>
       </div>
