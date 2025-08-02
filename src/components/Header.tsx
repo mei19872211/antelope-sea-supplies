@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { LanguageToggle } from "./LanguageToggle";
-import { Ship, Phone, Mail } from "lucide-react";
+import { Ship } from "lucide-react";
 
 interface HeaderProps {
   language: 'zh' | 'en';
@@ -60,19 +59,7 @@ export const Header = ({ language, onLanguageToggle }: HeaderProps) => {
             </a>
           </nav>
 
-          <div className="flex items-center space-x-3">
-            <LanguageToggle language={language} onToggle={onLanguageToggle} />
-            <div className="hidden lg:flex items-center space-x-4 text-sm">
-              <div className="flex items-center space-x-1">
-                <Phone className="h-4 w-4 text-ocean-primary" />
-                <span>0972-138-928</span>
-              </div>
-              <div className="flex items-center space-x-1">
-                <Mail className="h-4 w-4 text-ocean-primary" />
-                <span>antelopehw@outlook.com</span>
-              </div>
-            </div>
-          </div>
+          <LanguageToggle language={language} onToggle={onLanguageToggle} />
         </div>
       </div>
     </header>
