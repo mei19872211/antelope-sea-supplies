@@ -18,8 +18,8 @@ export const ServicesSection = ({ language }: ServicesSectionProps) => {
         },
         {
           icon: ShoppingCart,
-          title: "免稅品採購",
-          description: "香煙、酒類、化妝品等免稅商品採購服務，符合國際海事規範。"
+          title: "台灣本地採購配送",
+          description: "香煙、酒類、化妝品等商品採購服務，提供台灣本地優質商品配送。"
         },
         {
           icon: Wrench,
@@ -44,8 +44,8 @@ export const ServicesSection = ({ language }: ServicesSectionProps) => {
         },
         {
           icon: ShoppingCart,
-          title: "Duty-Free Items",
-          description: "Cigarettes, alcohol, cosmetics and other duty-free goods procurement in compliance with international maritime regulations."
+          title: "Local Taiwan Procurement",
+          description: "Cigarettes, alcohol, cosmetics and other quality products procurement and delivery from Taiwan local sources."
         },
         {
           icon: Wrench,

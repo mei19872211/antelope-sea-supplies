@@ -11,7 +11,7 @@ export const Footer = ({ language }: FooterProps) => {
       companyNameEn: "Antelope Hardware Ltd.",
       rights: "版權所有",
       address: "臺中市清水區吳厝里和睦路三段250號1樓",
-      motto: "細緻服務，由心出發。每一趟航程，我們都與您同行。"
+      motto: "不只是補給，更是一份默契與陪伴——我們始終在您航程中待命。"
     },
     en: {
       companyName: "Antelope Hardware Ltd.",
@@ -70,7 +70,7 @@ export const Footer = ({ language }: FooterProps) => {
 
         <div className="border-t border-ocean-secondary mt-8 pt-8 text-center">
           <p className="text-ocean-light">
-            © 2024 {t.companyName}. {t.rights}
+            © 2025 {t.companyName}. {t.rights}
           </p>
         </div>
       </div>

@@ -147,8 +147,8 @@ export const ContactSection = ({ language }: ContactSectionProps) => {
           <div className="text-center">
             <p className="text-lg text-ocean-primary font-medium mb-4">
               {language === 'zh' 
-                ? "若您的船舶即將靠泊台灣，我們將以最大的誠意，提供高品質的服務" 
-                : "If your vessel is approaching Taiwan, we will provide high-quality service with the utmost sincerity"
+                ? "用心服務每一艘船，每一次靠港，我們都全力以赴。" 
+                : "Serving every ship with care, giving our all for every port call."
               }
             </p>
             <Button size="lg" className="bg-ocean-secondary hover:bg-ocean-primary">

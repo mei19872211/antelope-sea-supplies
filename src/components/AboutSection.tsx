@@ -11,7 +11,7 @@ export const AboutSection = ({ language }: AboutSectionProps) => {
       title: "關於我們",
       subtitle: "細緻服務，由心出發",
       description: "我們的團隊擁有豐富的業界經驗，曾在高雄、基隆、台中等主要商港服務多艘船舶，是值得信賴的船舶補給服務。無論是日常糧品、免稅品，還是甲板與機艙物料，我們始終秉持專業與細緻，致力提供您穩定而貼心的補給支持。",
-      motto: "每一趟航程，我們都與您同行。",
+      motto: "不只是補給，更是一份默契與陪伴——我們始終在您航程中待命。",
       features: [
         {
           icon: MapPin,
